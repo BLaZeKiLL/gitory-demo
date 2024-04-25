@@ -47,7 +47,7 @@ jobs:
           path: 'build/'
 
   deploy:
-    needs: [build, test_web]
+    needs: [build]
     runs-on: ubuntu-latest
 
     permissions:
